@@ -1,0 +1,10 @@
+accounts:
+    - host: imap.your.server.com
+      port: 993
+      username: your_username
+      password: your_password
+#    You can add more account and switch between them using -a option
+#    - host: imap.your.server.com
+#        port: 993
+#        username: your_username
+#        password: your_password
