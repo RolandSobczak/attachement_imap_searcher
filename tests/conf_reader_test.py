@@ -1,6 +1,5 @@
-import pytest
-from cli_mail import conf_reader
 from pathlib import Path
+from ..imap_integration import conf_reader
 
 def parse_config_test():
     assert conf_reader.parse_config(Path('tests/conf.yaml')) == [{
